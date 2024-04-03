@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HW2-KS</title>
+<title>Homework 3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,16 +23,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="Homework 2_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Homework 2_files/libs/quarto-html/quarto.js"></script>
-<script src="Homework 2_files/libs/quarto-html/popper.min.js"></script>
-<script src="Homework 2_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Homework 2_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Homework 2_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Homework 2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Homework 2_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Homework 2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Homework 2_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="HW3_files/libs/clipboard/clipboard.min.js"></script>
+<script src="HW3_files/libs/quarto-html/quarto.js"></script>
+<script src="HW3_files/libs/quarto-html/popper.min.js"></script>
+<script src="HW3_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="HW3_files/libs/quarto-html/anchor.min.js"></script>
+<link href="HW3_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="HW3_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="HW3_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="HW3_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="HW3_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HW2-KS</h1>
+<h1 class="title">Homework 3</h1>
 </div>
 
 
@@ -60,19 +60,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="homework-2-quarto-and-markdown" class="level2">
-<h2 class="anchored" data-anchor-id="homework-2-quarto-and-markdown">Homework 2: Quarto and Markdown</h2>
-<p>The following homework will include basic practice using the markdown language and formatting documents with Quarto.</p>
+<p>This week’s homework will warm us up to writing a manuscript using GitHub.</p>
 <ol type="1">
-<li>Make a branch in your class repo called ‘HW2’</li>
-<li>Start a new .qmd file within this branch. In the first-level heading (in the title of the document), name your homework - “Homework 2: YOUR NAME’</li>
-<li>Name a second-level heading: ‘Intro to the Class data’</li>
-<li>Below the heading, write a sentence describing the class data. State that example data is listed in the table below, and add a cross-reference link to the table. Then write a sentence stating that the data can be imported using the following code: [[and insert the code here]]</li>
-<li>Write a chunk of code demonstrating one method of reading in the class data (find info <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-07-27">here</a>)</li>
-<li>Write a chunk of R code which outputs the first five rows and five columns of the class dataset as a table (use knitr::kable) and titles the table ‘Table 1: Class Data Example’. Hide the code chunk but output the table, which should be linked appropriately to #3 (<a href="https://quarto.org/docs/authoring/cross-references.html">hint</a>).</li>
-<li>Turn in both a .qmd and .html file ‘HW2-LASTNAME.FIRSTNAME’ by committing and pushing to your personal GitHub Repository, then sending me a pull request.</li>
+<li>Create a branch in your personal GitHub Repository called “HW3”. Also add a HW3 folder</li>
+<li>Add folders ‘HW3/Results’, ‘HW3/R’, and ‘HW3/data’.</li>
+<li>Place the class data in the data folder.</li>
+<li>Add an R file in your R folder titled ‘0.variable_definitions’ and add some code that imports the class data and defines <strong>three new variables</strong> from the data.</li>
+<li>Create a dataframe that creates some summary variables (e.g.&nbsp;means, SDs, etc) for your new variables, and save that dataframe in the Results folder</li>
+<li>In the head of your repository, add a .qmd file titled ‘Homework 3’. Add some text that describes the table that you just made, pulls it in from the Results folder, and displays it nicely. Add a cross-reference to the table in your text, output the table but suppress the code that you used to make it.</li>
+<li>Render to HTML, commit, and push, but make sure that it does not push this to github (use your .gitignore file)</li>
+<li>Render to PDF, commit, and push.</li>
+<li>Open a ‘pull request’ to pull this Homework 3 branch back to your main branch. Leave the pull request open for me :)</li>
 </ol>
-</section>
 
 </main>
 <!-- /main column -->
